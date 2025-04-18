@@ -3,7 +3,7 @@
 ## Installation
 
 ### 1. Using Visual Studio Code <font style="font-weight: 100">[Recommended]</font>
-# General Setup
+
 1. [Download](https://code.visualstudio.com/download) and [install](https://code.visualstudio.com/docs/getstarted/introvideos) Visual Studio Code following the given instructions on their website.
 
 2. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
