@@ -41,6 +41,7 @@
 This notebook uses an Aruco checkerboard to calibrate a camera. Once calibration metrics are retrieved a single Charuco tag is used in an image to rectify the image, in order to achieve a flat representation of the measuring surface. 
 
 # ```1_VisualizeMeasurements.ipynb```
+A notebook to visualize the measurement results.
 
 # ```2_FileRenamingHelper.ipynb```
 Utility Script for Copying Files
