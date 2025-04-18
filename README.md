@@ -1,14 +1,9 @@
-# Utility Script for Copying Files
-
-## Functionality 
-
-The script is designed to iterate over all images found through the ```input_file_pattern```, giving three input options for each image. Note that the images are sorted prior to being displayed, meaning that they should be displayed in the order in which they were taken.  
- The first user input defines ```Tag``` which should be the tag associated with the image. The second is ```Rank``` which defines the rank of the individual and the third is ```save``` which defines whether the image should be copied and renamed to the ```output_dir```. The input variables remain until being changed meaning that they don't have to be changed if they stay the same ("if you have multiple images from the same Tag, Rank that should be saved"). Please note that the folder name of the directory containing the images is used to define the date in the copied filename.
+# General Setup
 
 ## Installation
 
 ### 1. Using Visual Studio Code <font style="font-weight: 100">[Recommended]</font>
-
+# General Setup
 1. [Download](https://code.visualstudio.com/download) and [install](https://code.visualstudio.com/docs/getstarted/introvideos) Visual Studio Code following the given instructions on their website.
 
 2. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
@@ -41,6 +36,19 @@ The script is designed to iterate over all images found through the ```input_fil
 <code>conda activate nameofyourenvironment</code><br>
 <br>
 <code>jupyter notebook</code></p>
+
+# ```0_ImageUndistortion_Charuco.ipynb```
+This notebook uses an Aruco checkerboard to calibrate a camera. Once calibration metrics are retrieved a single Charuco tag is used in an image to rectify the image, in order to achieve a flat representation of the measuring surface. 
+
+# ```1_VisualizeMeasurements.ipynb```
+
+# ```2_FileRenamingHelper.ipynb```
+Utility Script for Copying Files
+
+## Functionality 
+
+The script is designed to iterate over all images found through the ```input_file_pattern```, giving three input options for each image. Note that the images are sorted prior to being displayed, meaning that they should be displayed in the order in which they were taken.  
+ The first user input defines ```Tag``` which should be the tag associated with the image. The second is ```Rank``` which defines the rank of the individual and the third is ```save``` which defines whether the image should be copied and renamed to the ```output_dir```. The input variables remain until being changed meaning that they don't have to be changed if they stay the same ("if you have multiple images from the same Tag, Rank that should be saved"). Please note that the folder name of the directory containing the images is used to define the date in the copied filename.
 
 ## Usage
 
