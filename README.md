@@ -8,7 +8,7 @@
 
 2. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
 
-3. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. You can alternatively use the supplied ```environment.yaml``` file and the following command to do so:
+3. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using an environment named ```measuring``` in the following, but feel free to name it anything you wish and can remember. You can alternatively use the supplied ```measuring_environment.yaml``` file and the following command to do so:
 
 <p style="text-align: center;"><code>conda create -f /path/to/environment.yaml</code></p>
 
@@ -27,7 +27,7 @@
 
 1. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
 
-2. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. You can alternatively use the supplied ```environment.yaml``` file and the following command to do so:
+2. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```measuring``` in the following, but feel free to name it anything you wish and can remember. You can alternatively use the supplied ```measuring_environment.yaml``` file and the following command to do so:
 
 3. Activate ```conda``` environment and open [Jupyter Notebook](https://jupyter.org/) by opening a terminal (Linux, Mac OS) or Anaconda Prompt (Windows) and typing:
 
